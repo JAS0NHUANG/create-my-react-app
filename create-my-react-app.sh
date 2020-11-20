@@ -3,8 +3,7 @@ npm init -y
 yarn add webpack webpack-cli webpack-dev-server @babel/core @babel/preset-env babel-loader react react-dom @babel/preset-react html-webpack-plugin styled-components
 
 mkdir src
-touch src/index.js src/App.js src/index.html
-touch webpack.config.js .babelrc
+touch src/index.js src/App.js src/index.html webpack.config.js .babelrc .gitignore
 
 sed -i '/scripts/a     "start": "webpack serve --mode development --env development --hot",\n    "build": "webpack --mode production",' package.json
 
@@ -54,3 +53,8 @@ echo "<!DOCTYPE html>
   <div id='root'>
   </div>
 </html>" > src/index.html
+
+echo "node_modules/
+*.log
+logs
+dist/" > .gitignore
