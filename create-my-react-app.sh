@@ -1,6 +1,6 @@
 npm init -y
 
-sudo npm install -g yarn
+npm install yarn
 
 yarn add webpack webpack-cli webpack-dev-server @babel/core @babel/preset-env babel-loader react react-dom @babel/preset-react html-webpack-plugin styled-components
 
