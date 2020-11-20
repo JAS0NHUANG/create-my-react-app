@@ -17,4 +17,5 @@ Files inside src/ folder are basic test files.
 
 ### create-my-react-app script
 
-Since cloning the whole repository will also include git files and you have to change the project name manually. Just use this simple shell script to create a basic React project automatically.
+Since cloning the whole repository will also include git files and you have to change the project name manually.  
+Just use this simple shell script ([create-my-react-app.sh](https://github.com/JAS0NHUANG/create-my-react-app/blob/main/create-my-react-app.sh)) to create a basic React project automatically.
