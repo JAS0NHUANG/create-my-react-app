@@ -7,7 +7,7 @@ yarn add webpack webpack-cli webpack-dev-server @babel/core @babel/preset-env ba
 mkdir src
 touch src/index.js src/App.js src/index.html webpack.config.js .babelrc .gitignore
 
-sed -i '/scripts/a \ \ \ \ "start": "webpack serve --mode development --env development --hot",\n\ \ \ \ "build": "webpack --mode production",' package.json
+sed -i '/scripts/a \ \ \ \ "start": "webpack serve --mode development --env development --hot --open http://localhost:8080/",\n\ \ \ \ "build": "webpack --mode production",' package.json
 
 echo "const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
