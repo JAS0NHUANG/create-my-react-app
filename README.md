@@ -7,7 +7,7 @@ Barebone React app with only minimal elements:
 
 Files inside src/ folder are basic test files.
 
-## Instalation
+## Installation
 
 ### Git Clone
 - `git clone https://github.com/JAS0NHUANG/create-my-react-app.git`
